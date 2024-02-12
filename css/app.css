@@ -1,12 +1,66 @@
-.flex {
-    display: flex;
+*{
+    padding: auto;
+    width: auto;
+    height: auto;
 }
+.img{
+    text-align: center;
+    padding: 30px;
+    
+}
+.topo{
+ align-items: center;
+ padding: 20px, 20px, 20px, 20px;
 
-.flex-row {
+}
+ h1{
+    text-align: center;
+
+ }
+.inputs{
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    grid-row: 10px;
+    background-color: #FFFF;
+    
+}
+.check{
+    text-align: center;
     flex-direction: row;
 }
+.check p{
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    margin: 20px;
+    
+    
+}
+.A{
+    background-color: #45FEFE;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 250px;
+}
+.botaob{
+    text-align: center;
+    
+}
+.B{
+    background-color: #FFFF;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 250px;
+    border: solid #45FEFE;
 
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+}
+.resultado h2{
+    text-align: center;
+}
+.resultado p{
+    text-align: center;
 }
